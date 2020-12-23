@@ -568,7 +568,7 @@ class MineRLEnv(gym.Env):
                 self.done = (done == 1)
                 
 
-                return out_obs, reward, self.done, {}
+                return out_obs, reward, self.done, info
             else:
                 raise RuntimeError(
                     "Attempted to step an environment with done=True")

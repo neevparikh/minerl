@@ -38,6 +38,12 @@
     </AgentStart>
     <AgentHandlers>
       <ObservationFromFullInventory flat="false"/>
+      <ObservationFromGrid>
+          <Grid name="ground_state">
+              <min x="-4" y="0" z="-4"/>
+              <max x="4" y="0" z="4"/>
+          </Grid> 
+      </ObservationFromGrid>
       <ObservationFromFullStats/>
       <HumanLevelCommands>
         <ModifierList type="deny-list"> 

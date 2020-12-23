@@ -41,8 +41,8 @@
       <ObservationFromFullInventory flat="false"/>
       <ObservationFromGrid>
           <Grid name="ground_state">
-              <min x="-4" y="0" z="-4"/>
-              <max x="4" y="0" z="4"/>
+              <min x="-8" y="0" z="-8"/>
+              <max x="8" y="0" z="8"/>
           </Grid> 
       </ObservationFromGrid>
       <ObservationFromFullStats/>
